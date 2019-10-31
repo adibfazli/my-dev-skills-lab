@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 3px solid black;
+    width: 30%;
+    /* height: 300px; */
+}
+#btn-and-input-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+#input{
+    width: 40%;
+}
+#addBtn{
+    background: greenyellow;
+    display: inline;
+}
+#tag{
+    margin: 30px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+
+}
+.xAndP{
+    display: flex;
+    /* height: 15px; */
+}
+.X{
+    height: 7px;
+}
+p{
+    margin: 10px 10px;
+}
+.xBtn{
+    background-color: rgb(255, 161, 161);
+    margin-top: 5px;
+}
